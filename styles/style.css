@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@400;600&family=Tilt+Warp&family=Ubuntu:wght@300;400&display=swap');
+*{
+  margin: 0;
+}
+
+body{
+  font-family:'Ubuntu', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.58;
+  letter-spacing: -.003em;
+  font-size: 20px;
+  background-color: #F7F4F2;
+}
+
+h1{
+  font-family: 'Tilt Warp', cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+  color: #DE3163;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    color: #2D87E7;
+}
+
+h3{
+  color: #E63B2E;
+}
+
+p{
+  color: #25031B;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  text-indent: 50px;
+}
+
+header{
+  text-align: center;
+  background-color: #D71868;
+  top: 0;
+  height: 100px;
+  width: 100%;
+}
+
+header h1, footer h1{
+  color: #FB607F;
+  padding-top: 30px;
+  font-size: 46px;
+}
+
+footer{
+  background-color: #002147;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 250px;
+}
+
+footer p{
+  color: #97BBDF;
+  margin-top: 10px;
+}
+
+footer a{
+  color: #5A4FCF;
+  text-transform: none;
+}
+
+.pagewrapper{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 100%;
+  grid-template-areas: 
+  'nav content';
+}
+
+.sidebar{
+  height: 100%;
+  width: 90%;
+  background: #3385D7;
+  font-size: 16px;
+}
+
+.nav{
+  position: relative;
+  text-align: right; 
+  margin: 15%;
+  font-weight: bold;
+}
+
+.nav ul{
+  list-style: none;
+}
+  
+li{
+  position: relative;
+  margin: 3.2em 0;
+}
+    
+a{
+  line-height: 3em;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: #002147;
+}
+    
+.active a{
+      color: white;
+}
+    
+:not(.active)::after{
+      opacity: 0.2;
+ }
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  gap: 20px;
+  grid-template-areas: 
+  'image text';
+}
+
+.width{
+  width: 100%;
+}
+
+img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+input{
+  font-size:18px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  border: 1px solid #226CE0;
+  padding: 3px;
+  font-family: "corporate-s-std-urw", sans-serif;
+  font-style: normal;
+  color: #1B1725;
+}
+
+input[id="miditintial"] {
+    max-width: 1ch;
+}
+
+input[id="zip"]{
+    max-width: 5ch;
+}
+
+input[id="scrcode"] {
+      max-width: 4ch;
+}
+
+input[id="creditcard"] {
+      max-width: 16ch;
+}
+
+input[id="exprdate"] {
+      max-width: 5ch;
+}
+
+input[type="number"] {
+    max-width: 4ch;
+}
+
+input[type="radio"] {
+    font-size:18px;
+}
+
+input[type="tel"]{
+  max-width: 11ch;
+}
+
+input[type="submit"], [type="reset"]{
+  font-size:18px;
+  margin-top: 15px;
+  padding: 7px;
+  background-color: #E63B2E;
+  color: #FAF0E6;
+  border-color: #BA160C ;
+}
+
+
+  
+
+
+
+
