@@ -2,13 +2,13 @@
 
 ## What I learned
 ### Inputs
-A major topic we were discussing in my Intro Web Design course was Input and forms. For this assignment, we were tasked with using as text box inputs many as we could.  \
-Imputs require two attributes, a ```<input>``` tag and a ```<label>```tag. The ```<input>``` tag is where you will specify what type of input you are using.   \
-Examples of them can be... a text box, date, mailto, or a radio button. The ```<input>```  will be the type of input, but it also needs an ID and a name, which can all be similar. For example, you can use 'text' for the type, 'lastnameID' for the id, and 'lastname' for the name. They will all need to between first ```<input>```   \
-ex. ```<input type="text" id="firstname" name="firstname">```. \
-The ```<label>``` will hold the title for  the input.  \
+A major topic we were discussing in my Intro Web Design course was Input and forms. For this assignment, we were tasked with using as text box inputs many as we could.  
+Imputs require two attributes, a ```<input>``` tag and a ```<label>```tag. The ```<input>``` tag is where you will specify what type of input you are using.   
+Examples of them can be... a text box, date, mailto, or a radio button. The ```<input>```  will be the type of input, but it also needs an ID and a name, which can all be similar. For example, you can use 'text' for the type, 'lastnameID' for the id, and 'lastname' for the name. They will all need to between first ```<input>```   
+ex. ```<input type="text" id="firstname" name="firstname">```.   
+The ```<label>``` will hold the title for  the input.  
 ex.```<label for="lastname">Last Name:</label>```  
-*Important note, the label should go before the input when typing code
+Important note, the label should go before the input when typing code   
 ex.```<label for="lastname">Last Name:</label>```  
 ```<input type="text" id="firstname" name="firstname">```
 
